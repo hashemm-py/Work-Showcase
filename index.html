@@ -3,51 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Python & Automation Engineer - Achievements and Project Timeline">
-    <title>Python & Automation Architect | Hashem's Portfolio</title>
+    <meta name="description" content="Hashem | Python & Automation Engineer - Automation & AI Systems Builder">
+    <title>Hashem | Automation & AI Systems Builder</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header class="header">
-        <div class="header-content">
-            <div class="header-text">
-                <h1 class="title">Python & Automation Architect</h1>
-                <p class="subtitle">Hashem's Journey in Task & Process Automation</p>
-            </div>
-            <p class="tagline">📍 From Scripts to Systems | Driven by Efficiency & Innovation</p>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">Hashem</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
         </div>
-    </header>
+    </nav>
 
-    <!-- Intro Section -->
-    <section class="intro">
-        <div class="intro-content">
-            <h2>Building Solutions Through Automation</h2>
-            <p>Python developer passionate about automating complex workflows, scaling configurations, and monitoring systems. Explore key projects and milestones from my automation journey.</p>
-            <div class="scroll-hint">
-                <span class="arrow">→</span> Scroll horizontally to explore
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="animated-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Automation & AI Systems Builder</h1>
+            <p class="hero-subtitle">From Scripts to Systems | Driven by Efficiency & Innovation</p>
+            <p class="hero-description">Python developer passionate about automating complex workflows, scaling configurations, and building intelligent systems that drive real impact.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">View Projects</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get In Touch</button>
             </div>
         </div>
     </section>
 
-    <!-- Timeline Container -->
-    <section class="timeline-section">
-        <div class="timeline-container" id="timeline">
-            
-            <!-- 2023 Q1: Learning Foundation -->
-            <div class="timeline-card" data-year="2023">
-                <div class="card-header">
-                    <span class="date">2023 Q1</span>
-                    <span class="category-badge python">Python</span>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing key milestones in my automation journey</p>
+            </div>
+
+            <!-- Project Filters -->
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="monitoring">Monitoring</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="automation">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Profile Configuration Automation</h3>
+                        <p class="project-description">Automated configuration of 100+ user profiles based on permissions and data-level subscriptions.</p>
+                        <div class="project-metrics">
+                            <span class="metric">100+ Profiles</span>
+                            <span class="metric">85% Time Saved</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Data Mapping</span>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="card-title">Foundation in Automation</h3>
-                <p class="card-description">Started deep-dive into Python automation fundamentals. Built first production scripts for routine task automation.</p>
-                <div class="card-skills">
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Scripting</span>
-                    <span class="skill-tag">Bash</span>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="monitoring">
+                    <div class="project-image" style="background: linear-gradient(135deg, #00d9ff 0%, #0099ff 100%);"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Airflow Monitoring Dashboard</h3>
+                        <p class="project-description">Built automated Airflow DAG monitoring with custom overlay dashboard. Real-time visibility into 50+ data pipelines.</p>
+                        <div class="project-metrics">
+                            <span class="metric">50+ Pipelines</span>
+                            <span class="metric">98% Accuracy</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Apache Airflow</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Dashboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="devops">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ff006e 0%, #ffbe0b 100%);"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">CI/CD Automation Pipeline</h3>
+                        <p class="project-description">Implemented end-to-end CI/CD automation for deployment and configuration. Reduced deployment time from hours to minutes.</p>
+                        <div class="project-metrics">
+                            <span class="metric">Hours → Minutes</span>
+                            <span class="metric">100% Automated</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">CI/CD</span>
+                            <span class="tech-tag">Deployment</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="monitoring">
+                    <div class="project-image" style="background: linear-gradient(135deg, #3a86ff 0%, #8338ec 100%);"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Infrastructure Monitoring Setup</h3>
+                        <p class="project-description">Implemented automated health checks and alerting systems for infrastructure. Reduced incident response time significantly.</p>
+                        <div class="project-metrics">
+                            <span class="metric">60% Faster</span>
+                            <span class="metric">24/7 Monitoring</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Monitoring</span>
+                            <span class="tech-tag">Alerting</span>
+                            <span class="tech-tag">Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="automation">
+                    <div class="project-image" style="background: linear-gradient(135deg, #fb5607 0%, #ffbe0b 100%);"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Workflow Orchestration</h3>
+                        <p class="project-description">Developed complex multi-step orchestration workflows with conditional logic. Improved data pipeline reliability to 99.5%.</p>
+                        <div class="project-metrics">
+                            <span class="metric">99.5% Reliability</span>
+                            <span class="metric">Complex Logic</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Orchestration</span>
+                            <span class="tech-tag">Error Handling</span>
+                            <span class="tech-tag">Conditional Logic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="devops">
+                    <div class="project-image" style="background: linear-gradient(135deg, #06ffa5 0%, #00d9ff 100%);"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Performance Optimization</h3>
+                        <p class="project-description">Optimized automation scripts for large-scale deployment. Achieved 40x performance improvement through parallel processing.</p>
+                        <div class="project-metrics">
+                            <span class="metric">40x Faster</span>
+                            <span class="metric">Scale Ready</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Performance Tuning</span>
+                            <span class="tech-tag">Parallel Processing</span>
+                            <span class="tech-tag">Caching</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Core Competencies</h2>
+                <p class="section-subtitle">Technologies and expertise driving my projects</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Languages & Frameworks -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Languages & Frameworks</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Python 3.x</span>
+                        <span class="skill-badge">Bash/Shell</span>
+                        <span class="skill-badge">SQL</span>
+                        <span class="skill-badge">JavaScript</span>
+                    </div>
+                </div>
+
+                <!-- Automation & Orchestration -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Automation & Orchestration</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Apache Airflow</span>
+                        <span class="skill-badge">Task Scheduling</span>
+                        <span class="skill-badge">Workflow Orchestration</span>
+                        <span class="skill-badge">Process Automation</span>
+                    </div>
+                </div>
+
+                <!-- DevOps & Infrastructure -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">DevOps & Infrastructure</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">CI/CD Pipelines</span>
+                        <span class="skill-badge">Monitoring & Alerting</span>
+                        <span class="skill-badge">Infrastructure as Code</span>
+                        <span class="skill-badge">Git/Version Control</span>
+                    </div>
+                </div>
+
+                <!-- Data & Integration -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data & Integration</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Data Pipelines</span>
+                        <span class="skill-badge">API Integration</span>
+                        <span class="skill-badge">ETL Processes</span>
+                        <span class="skill-badge">Data Transformation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">I'm Hashem, a Python developer and automation engineer with a passion for building intelligent systems that solve real-world problems. Starting from automation fundamentals in 2023, I've evolved to architect complex workflows, orchestrate data pipelines, and drive operational efficiency at scale.</p>
+                    <p class="about-description">My journey spans from scripting automation tasks to designing enterprise-grade monitoring dashboards and CI/CD systems. I believe in the power of automation to transform manual processes into intelligent, self-healing systems that unlock human potential.</p>
+                    <p class="about-description">Today, I'm exploring the intersection of automation and AI—building systems that not only execute workflows but predict, adapt, and optimize themselves. Every project I undertake is driven by one core principle: <strong>efficiency through innovation</strong>.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Profiles Automated</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Pipelines Monitored</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">40x</span>
+                        <span class="stat-label">Performance Gain</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">99.5%</span>
+                        <span class="stat-label">Reliability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Have a project in mind? Let's discuss how I can help automate your workflows.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to innovate?</h3>
+                    <p>Whether you need automation solutions, workflow optimization, or system monitoring, I'm here to help.</p>
+                    <a href="mailto:hello@example.com" class="contact-email">hello@example.com</a>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Project Title" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell me about your project..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Hashem | Python & Automation Engineer | Built with HTML, CSS & Vanilla JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
             <!-- 2023 Q2: Profile Automation Project -->
             <div class="timeline-card featured" data-year="2023">

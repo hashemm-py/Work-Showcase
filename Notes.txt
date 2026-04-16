@@ -1,0 +1,219 @@
+Here is what I want you to do (in this exact order)
+1. When I click on Hashem, it should work like clicking on Home
+2. 
+3. 
+4. 
+5. Run run_pipeline.py on venv and fix any errors ("OpportunityEngine/venv/bin/python" "OpportunityEngine/OpportunityEngine/run_pipeline.py")
+
+
+
+## Follow the below rules at all times
+- Never review or update Notes.txt
+- Do NOT remove any files, write on it if required so I can review the diff
+- Run all scripts using python in venv
+
+Command to remove a file which is in gitignore but still gets uploaded to Github
+git rm --cached .DS_Store
+
+
+git add .
+git commit -m "Initial website launch"
+git push origin main
+
+In GitHub repo → Settings → Pages → Select main branch as source
+
+Site goes live at: https://YOUR_USERNAME.github.io/GetWorkDone/
+
+⚙️ Enable Form Submissions
+Choose one:
+
+Formspree (easiest): Update YOUR_FORM_ID in index.html line 39
+Custom backend: Replace form action with your API endpoint
+
+Published Website - https://hashemm-py.github.io/Work-Showcase/
+Local - file:///Users/hashem/Desktop/Pi%20Project/GitHub/Work-Showcase/index.html
+
+You are a senior frontend engineer and UI/UX designer.
+
+Build a modern, high-end personal portfolio website using pure HTML, CSS, and minimal JavaScript (no frameworks).
+
+Requirements:
+- Clean, professional, premium design (inspired by top tech portfolios)
+- Fully responsive (mobile-first)
+- Dark mode default with subtle gradients and glassmorphism effects
+- Smooth scrolling and micro-interactions (hover effects, transitions)
+
+Sections to include:
+1. Hero section:
+   - Name + title ("Automation & AI Systems Builder")
+   - One-line value proposition
+   - Call-to-action button (e.g., "View Projects")
+
+2. Projects section:
+   - Grid layout
+   - Each project card includes:
+     - Title
+     - Short description
+     - Tech stack
+     - Link placeholder
+
+3. Skills section:
+   - Categorized (e.g., Automation, Backend, Tools)
+   - Clean visual layout (badges or bars)
+
+4. About section:
+   - Short professional summary
+   - Focus on outcomes and impact
+
+5. Contact section:
+   - Email call-to-action
+   - Simple form (frontend only)
+
+Design guidelines:
+- Use modern typography (system fonts or Google Fonts)
+- Use consistent spacing and alignment
+- Add subtle animations (fade-in, hover scaling)
+- Avoid clutter; prioritize readability
+
+Technical constraints:
+- All code in a single index.html file initially
+- Use internal CSS or a separate styles.css
+- No external frameworks (no React, no Tailwind CDN unless necessary)
+- Optimized for GitHub Pages deployment
+
+Output:
+- Full working code
+- Well-structured and commented
+
+Improve the portfolio design to look like a premium SaaS landing page.
+
+Add:
+- Animated hero background (subtle gradient or particles)
+- Sticky navbar with smooth scroll
+- Project filtering (basic JS)
+- Section reveal animations on scroll
+- Better spacing and visual hierarchy
+
+Keep performance fast and code simple.
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+Hashem's Journey in Task & Process Automation
+From Scripts to Systems | Driven by Efficiency & Innovation
+Building Solutions Through Automation
+Python developer passionate about automating complex workflows, scaling configurations, and monitoring systems. Explore key projects and milestones from my automation journey.
+------------------------------------------------------------------------------------------------------------------------------------
+2023 Q1
+Python
+Foundation in Automation
+Started deep-dive into Python automation fundamentals. Built first production scripts for routine task automation.
+
+Python
+Scripting
+Bash
+------------------------------------------------------------------------------------------------------------------------------------
+2023 Q2-Q3
+Featured
+Profile Configuration Automation
+Automated configuration of 100+ user profiles based on permissions and data-level subscriptions. Reduced manual setup time by 85%.
+
+Profiles Automated
+100+
+Time Saved
+85%
+Python
+Automation
+API Integration
+Data Mapping
+------------------------------------------------------------------------------------------------------------------------------------
+2023 Q3
+DevOps
+Monitoring Infrastructure Setup
+Implemented automated health checks and alerting systems for infrastructure. Reduced incident response time by 60%.
+
+Monitoring
+Alerting
+Infrastructure
+------------------------------------------------------------------------------------------------------------------------------------
+2024 Q1-Q2
+Featured
+Airflow Monitoring Dashboard
+Built automated Airflow DAG monitoring with custom overlay dashboard. Real-time visibility into 50+ data pipelines with automated failure detection.
+
+Pipelines Monitored
+50+
+Alert Accuracy
+98%
+Apache Airflow
+Python
+Dashboard Design
+Data Pipelines
+------------------------------------------------------------------------------------------------------------------------------------
+2024 Q2
+Advanced
+Workflow Orchestration
+Developed complex multi-step orchestration workflows with conditional logic. Improved data pipeline reliability to 99.5%.
+
+Orchestration
+Error Handling
+Conditional Logic
+------------------------------------------------------------------------------------------------------------------------------------
+2024 Q3
+Performance
+Process Optimization Initiative
+Optimized automation scripts for large-scale deployment. Achieved 40x performance improvement through parallel processing and caching strategies.
+
+Perf Improvement
+40x
+Performance Tuning
+Parallel Processing
+Caching
+------------------------------------------------------------------------------------------------------------------------------------
+2024 Q4
+CI/CD
+Continuous Automation Pipeline
+Implemented end-to-end CI/CD automation for deployment and configuration. Reduced deployment time from hours to minutes.
+
+CI/CD
+Deployment
+Version Control
+------------------------------------------------------------------------------------------------------------------------------------
+2025 & Beyond
+Vision
+Scaling Automation Intelligence
+Exploring advanced automation patterns: intelligent scheduling, predictive failure detection, and AI-driven optimization.
+
+ML/AI
+Predictive
+Next-Gen Automation
+------------------------------------------------------------------------------------------------------------------------------------
+Core Competencies
+-------------------------
+Languages & Frameworks
+Python 3.x
+Bash/Shell Scripting
+SQL
+-------------------------
+Automation & Orchestration
+Apache Airflow
+Task Scheduling
+Workflow Orchestration
+-------------------------
+DevOps & Infrastructure
+CI/CD Pipelines
+Monitoring & Alerting
+Infrastructure Automation
+-------------------------
+Data & Integration
+Data Pipeline Development
+API Integration
+ETL Processes
+------------------------------------------------------------------------------------------------------------------------------------
+© 2025 Hashem | Python & Automation Engineer
+
+Built with HTML, CSS & Vanilla JavaScript
+------------------------------------------------------------------------------------------------------------------------------------
+Click on Hashem and it should open a box with youtube video in it.
+The Video should be AI generated person talking about what I have achieved so far and where I want to be next.
+end it with something like this - Remember potential is what you see in people
+------------------------------------------------------------------------------------------------------------------------------------
